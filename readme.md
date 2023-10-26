@@ -1,1 +1,2 @@
-# crocogene's keymap for xd75 keyboard
+# crocogene's keymap for XD75Re keyboard
+
