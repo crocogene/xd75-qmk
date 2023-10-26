@@ -22,7 +22,7 @@
 #define S2L_LAYER_SHIFT_EN L_EN_S
 #define S2L_LAYER_BASE_RU L_RU
 #define S2L_LAYER_SHIFT_RU L_RU_S
-#include "shift2lang/shift2lang.h"
+#include "shift2lang/s2l.h"
 
 enum layers {
   L_EN,
