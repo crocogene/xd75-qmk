@@ -16,14 +16,19 @@
 
 #include QMK_KEYBOARD_H
 
+
 #define S2L_RANGE 0x6100 // свободный диапазон между QK_TAP_DANCE_MAX и QK_MAGIC
+#define S2L_LAYER_BASE_EN L_EN
+#define S2L_LAYER_SHIFT_EN L_EN_S
+#define S2L_LAYER_BASE_RU L_RU
+#define S2L_LAYER_SHIFT_RU L_RU_S
 #include "shift2lang/shift2lang.h"
 
 enum layers {
-  LAYER_BASE_EN,
-  LAYER_SHIFT_EN,
-  LAYER_BASE_RU,
-  LAYER_SHIFT_RU
+  L_EN,
+  L_EN_S,
+  L_RU,
+  L_RU_S
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
