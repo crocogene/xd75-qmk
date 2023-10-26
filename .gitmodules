@@ -1,0 +1,3 @@
+[submodule "shift2lang"]
+	path = shift2lang
+	url = https://github.com/crocogene/qmk-shift2lang.git
